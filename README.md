@@ -12,6 +12,6 @@ apt-get install git
 
 git clone https://github.com/hasan08122020108181818/
 
-cd 
+cd toolnewteamyes
 
 python2 
