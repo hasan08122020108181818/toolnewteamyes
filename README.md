@@ -1,6 +1,6 @@
-# Tool by ronaldo TEAM Anonymous 2 or TEAM 909
-Tools ddos-ronaldo
-# Installed tool ddos-ronaldo
+# Tool by ronaldo Zhack TEAM Anonymous 2 or TEAM 404
+Tools ddos-909
+# Installed tool ddos-team
 
 apt-get update 
 
