@@ -10,8 +10,8 @@ apt-get install python2
 
 apt-get install git
 
-git clone https://github.com/hasan08122020108181818/
+git clone https://github.com/hasan08122020108181818/toolnewteamyes
 
 cd toolnewteamyes
 
-python2 
+python2 toolyes.py
