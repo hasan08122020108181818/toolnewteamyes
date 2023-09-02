@@ -51,7 +51,6 @@ def run():
 		try:
 			s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 			sent = 79
-while True:
      while 1:
         if time.time() > timeout:
             break
