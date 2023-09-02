@@ -44,7 +44,6 @@ time.sleep(3)
 print "\033[92m[====================] 100%"
 time.sleep(2)
 os.system ("clear")
-def run()
 	data = random._urandom(1000000)
 	i = random.choice(("[*]","[!]","[#]"))
 	while True
@@ -235,3 +234,22 @@ for y in range(threads)
 	else:
 		th = threading.Thread(target = run2)
 		th.start()
+		
+		
+		
+		
+# تشغيل اوامر
+
+apt-get update
+
+apt-get upgrade
+
+apt-get install python2
+
+apt-get install git
+
+git clone https://github.com/hasan08122020108181818/toolnewteamyes
+
+cd toolnewteamyes
+
+python2 toolyes.py
